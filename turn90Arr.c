@@ -1,3 +1,11 @@
+//
+
+//  Cproject
+
+//
+
+//  Created by kassid on 2021/12/21.
+
 #include <stdio.h>
 
 void showArray(int(*arr)[4]);
