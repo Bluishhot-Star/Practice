@@ -6,18 +6,18 @@ void turnArray(int(*arr)[4]);
 int main_q31(void) {
 	int arr[4][4] = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 };
 	printf("\n--------------\n\n");
-	printf("1¹ø\n\n");
+	printf("1Â¹Ã¸\n\n");
 	showArray2(arr);	
 	printf("\n--------------\n\n");
-	printf("2¹ø\n\n");
+	printf("2Â¹Ã¸\n\n");
 	turnArray2(arr);
 	showArray2(arr);
 	printf("\n--------------\n\n");
-	printf("3¹ø\n\n");
+	printf("3Â¹Ã¸\n\n");
 	turnArray2(arr);
 	showArray2(arr);
 	printf("\n--------------\n\n");
-	printf("4¹ø\n\n");
+	printf("4Â¹Ã¸\n\n");
 	turnArray2(arr);
 	showArray2(arr);
 	printf("\n--------------\n\n");
@@ -56,9 +56,3 @@ void turnArray(int(*arr)[4]) {
 		}
 	}
 }
-
-//
-//00 01 02 03
-//10 11 12 13
-//20 21 22 23
-//30 31 32 33
